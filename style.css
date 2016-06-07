@@ -1,0 +1,56 @@
+#body{
+	font-family: 'Convergence', sans-serif; 
+	color : #38291D;
+}
+#nom{
+	color : #4B96FD; 
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 40px;
+}
+div#colonne1 {
+    float: left;
+    width: 260px;
+    margin-right: 10px;
+    background: lightblue;
+}
+div#colonne2 {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    background: burlywood;
+}
+div#centre {
+    overflow: hidden;
+    background: khaki;
+}
+#tableau1{
+	border: 1px solid #38291D; 
+	border-color : #38291D;
+	width : 97%;
+}
+#Experience{
+	text-decoration: overline;
+}
+#Formation{
+	text-decoration: overline;
+}
+#CI{
+	text-decoration: overline;
+}
+#titre{
+	text-decoration: overline;
+}
+div#colonne1 ul{
+    list-style-image: url('donutblue.png');
+}
+div#centre ul{
+    list-style-image: url('donutkhaki.png');
+}
+th {
+    background-color: burlywood;
+    color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+tr:hover {
+  background-color: lightblue;
+}
